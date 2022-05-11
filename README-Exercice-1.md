@@ -23,5 +23,5 @@
 
 ## Temps de réalisation
 
-- Temps pour les recherches et pour apprendre les principes du React : 2 jours
+- Temps pour les recherches et pour apprendre les principes du React, d'Axios et autres : 2 jours
 - Temps total pour finir le premier exercice : 3 jours et demi
