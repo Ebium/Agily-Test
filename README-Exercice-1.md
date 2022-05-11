@@ -21,3 +21,7 @@
 - Dernière chose, le police de caractère ( le font ) ... Faut pas ce compliquer la tête pour ça, on marque *Font from picture* sur google et le tour est joué ! On obtiens la police voulue.
 
 
+## Temps de réalisation
+
+- Temps pour les recherches et pour apprendre les principes du React : 2 jours
+- Temps total pour finir le premier exercice : 3 jours et demi
