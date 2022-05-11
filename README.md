@@ -42,3 +42,29 @@ L'application est composé des architectures client et serveur organisé de la m
   - Index.js : script principale liant l'index.html au rendu des pages Home et App
 
 
+
+ ### Principes utilisés
+ 
+ 
+  #### Framework utilisé
+  
+  J'avais le choix entre les framework suivants : Vue, Next, Nuxt et React.
+  Je n'avais aucune connaissances de ces 4 langages avant de commencer ce projet.
+  Je sais que React est très connu et qu'il est beaucoup demandé par les clients / entreprises, avec VueJs.
+  Après quelques recherches, React est adapté aux applications qui ne demandent de rechargement de page, qui sont statiques et qui ne demandent pas beaucoup   d'échanges de données de la part des utilisateurs, c'est exactement ce qu'il nous faut !
+  L'avantage principal de React est qu'il charge la page et met à jour seulement ce qui est nécessaire, donc demande moins de ressources.
+  
+  #### Les explications pour la réalisation des exercices 1 et 2 sont situées, respectivement, dans les Readme exercice 1 et Readme exercice 2
+  
+  
+  ### Ressentis après ce test et recommendations
+  
+  #### Ressentis
+  
+  - Partis de *Presque* rien, sauf quelques base en JavaScript, HTML, et CSS, j'ai appris énormément ! Que ce soit sur les différents framework, principes HTTP ou même applications côté client/serveur (backend, frontend), j'ai jamais été aussi convaincu des avantages que cela pouvait avoir que de travailler en autodidacte sur un projet que je pensais irréalisable au départ.
+  - Etant qu'en deuxième année de licence informatique, je n'avais pas énormément de connaissances dans ce domaine. Quand j'ai vu le mot API, j'ai eu du mal, mais une fois rentré dans le projet, tout s'éclaircit !
+ 
+ #### Recommendations 
+ 
+ - J'aimais déjà beaucoup le développement web, donc après ce projet, je ne peux être que 100% sûr de vouloir travailler dans ce domaine.
+  
