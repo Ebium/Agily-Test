@@ -11,7 +11,7 @@
 
 ## Principes utilisés et décisions prises
 
-
+- Création de l'application client avec React, rapide à faire dans le cmd.
 - Pour ces cartes là, il faut affiche l'icône de la météo correspondante, on a juste à l'extraire des données récupérées à partir le d'API.
 - Affichage des dates et des jours sur les cartes : au début, aucune idée. On s'aperçoit qu'on récupère le valeur dt pour chaque jour, c'est-à-dire le temps en UNIX. Je code rapidement une fonction pour convertir se temps en jour et en mois, puis l'affiche.
 - Pour le fond d'écran, j'ai d'abord cherché si l'API OWM me donnait une image, mais pas du tout. Je vais donc utiliser TELEPORT PUBLIC API, api retournant une image pour chaque ville. Les deux défault sont le nombre limité de ville disponible - pas de problème on affiche l'image de las-vegas si on obtient rien sur celle demandée, et la qualité de l'image.
