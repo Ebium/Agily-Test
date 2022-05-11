@@ -11,7 +11,6 @@
 
 ## Principes utilisés et décisions prises
 
-#### Cartes affichant la météo
 
 - Pour ces cartes là, il faut affiche l'icône de la météo correspondante, on a juste à l'extraire des données récupérées à partir le d'API.
 - Affichage des dates et des jours sur les cartes : au début, aucune idée. On s'aperçoit qu'on récupère le valeur dt pour chaque jour, c'est-à-dire le temps en UNIX. Je code rapidement une fonction pour convertir se temps en jour et en mois, puis l'affiche.
