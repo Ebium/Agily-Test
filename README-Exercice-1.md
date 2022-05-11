@@ -7,7 +7,7 @@
 - bouton pour revenir à page principale
 - il faut utiliser l'api openweathermap (OWM) pour récupérer les données et axios pour faire les requêtes
 - le fond d'écran doit changer en fonction de la ville souhaitée
-
+- Utiliser seulement Axios, doit être responsive et pas de librairie de style
 
 ## Principes utilisés et décisions prises
 
