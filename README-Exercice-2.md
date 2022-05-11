@@ -15,3 +15,6 @@
 - Pour les requêtes, on fetch la requête de notre API, qui va ensuite envoyer la reqûete à Openweathermap. Je code rapidement une fonction pour garder seulement les données qu'on veut (température, icône,arrière plan ... ). Avant d'envoyer cette reqûete, on regarde si ces données sont présent dans le cache. Dans ce cache, on a pour chaque clé ( la clé est le nom de la ville voulue ) un dictionnaire avec les données qu'on veut. On regarde si cette clé est présente avant d'envoyer les requêtes à openweathermap, si elle n'y est pas, on fait la reqûete, on enregistre les données dans le cache puis les envoie à l'application client. Si elles sont déjà présente dans le cache, pas besoin de faire de requête, donc le délai d'attente pour les données est très faible !
 
 ## Temps de réalisation
+
+- Temps pour la documentation et les recherches : 1/2 jour
+- Temps total pour la réalisation du second exercice : 1 jour
