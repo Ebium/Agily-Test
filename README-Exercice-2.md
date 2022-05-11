@@ -17,4 +17,4 @@
 ## Temps de réalisation
 
 - Temps pour la documentation et les recherches : 1/2 jour
-- Temps total pour la réalisation du second exercice : 1 jour
+- Temps total pour finir le second exercice : 1 jour
