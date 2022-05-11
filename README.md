@@ -20,15 +20,25 @@ L'application est composé des architectures client et serveur organisé de la m
  
  #### Partie serveur 
  
- - app.js : "API" envoyant les requêtes à Openweatherapp quand c'est utile. En effet, si on demande les données pour la même ville deux fois, il est inutile d'envoyer la reqûete pour avoir ces données là deux fois. Lors de la première fois, on enregistre les données dans le cache node, qui seront utilisées pour la seconde requête. Cela permet de limiter la bande passante du client et le délai d'attente.
- - package-lock.json / package.json : contient la racine de l'application.
+ - app.js : "API" envoyant les requêtes à Openweatherapp quand c'est utile. En effet, si on demande les données pour la même ville deux fois, il est inutile d'envoyer la reqûete pour avoir ces données là deux fois. Lors de la première fois, on enregistre les données dans le cache node, qui seront utilisées pour la seconde requête. Cela permet de limiter la bande passante du client et le délai d'attente
+
+ - package-lock.json / package.json : contient la racine de l'application serveur
 
 #### Partie client
 
-1. dossier public 
+- package-lock.json / package.json : contient la racine de l'application serveur
+- les deux dossiers public et src :
 
-- icon.png : icône de l'application, affiché à l'extrémité gauche de l'onglet
-- index.html : génère le template de l'application
+- 1. dossier public 
 
-2. dossier src
+  - icon.png : icône de l'application, affiché à l'extrémité gauche de l'onglet
+  - index.html : génère le template de l'application
+
+- 2. dossier src
+
+  - le dossier style : composé des fichiers App.css, Home.css, Index.css, left-arrow.svg et search.svg
+  - Home.js : script pour le rendu de la page principale permettant de demander une ville au client
+  - App.js : script pour le rendu de la seconde page, affichant la météo du jour même et des 7 jours à venir, ainsu qu'une possibilité de revenir sur la première page
+  - Index.js : script principale liant l'index.html au rendu des pages Home et App
+
 
