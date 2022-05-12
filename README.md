@@ -1,14 +1,24 @@
 # Agily - Rapport global
 
+
+
 Ce répertoire contient le projet *Meteapp*.
 C'est une application permettant de donner la météo du jour même et des 7 prochains jour à venir.
 
+### Comment démarrer l'application
+
+- Il faudra d'abord installer les packages nécessaires : Pour la partie serveur ( axios, express, node-cache et concurrently ) et pour la partie client ( axios, express, react, react-dom, react-scripts )
+- Il faut se placer dans le répertoire Meteapp et exécuter la commande : > npm run dev
+
+
+ ### Description des fichiers
+ 
 L'application est composé des architectures client et serveur organisé de la manière suivante :
 
 ![image](https://user-images.githubusercontent.com/91456594/167903136-dd760bbd-0b15-4280-a7d1-b5a9744d0f36.png)
 
  
- ### Description des fichiers
+
  
  Les dossiers node_modules ne sont pas présents dans le répertoire en raison de leur taille
  Ils contiennent les dépendances / paquets utiles au projet, qui sont dans notre cas :
