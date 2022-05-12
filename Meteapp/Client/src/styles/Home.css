@@ -1,0 +1,63 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  --background_color: #134601;
+}
+
+*:focus {
+  outline: none;
+}
+
+.home {
+    text-align: center;
+  }
+
+
+.home_header {
+    background-color: var(--background_color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+
+.navlink_to_app{
+    color: white;
+    text-decoration: none;
+}
+
+#home_title{
+  background: linear-gradient(180deg, rgba(43,199,101,1) 0%, rgba(228,230,157,1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
+}
+
+#VilleButton {
+  font-size: large;
+  border: none;
+  background-color: transparent;
+}
+
+#VilleInput {
+  font-size: calc(0px + 2vmin);
+  font-weight: bold;
+  border: none;
+  color: var(--background_color);
+  width: fit-content;
+  margin-left: 15px;
+  padding-right: 15vw;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-color: var(--background_color);
+
+}
+
+#ville_input_button {
+  background-color: white;
+  box-sizing: content-box;
+  display: flex;
+  border-radius: 15px;
+  padding:2px 0 2px 0;
+}

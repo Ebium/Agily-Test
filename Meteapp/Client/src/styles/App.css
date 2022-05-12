@@ -1,0 +1,229 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  --background_color: #134601e7;
+}
+
+body {
+  margin: 0;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+}
+
+/*-------------------------*/
+
+#background_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#background_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: rgba(0, 255, 255, 0.205);
+}
+
+/*-------------------------*/
+
+#arrow_back_div {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+
+.arrow-bg {
+  height: 64px;
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--background_color);
+}
+
+.arrow-svg {
+  height: 4vmin;
+  filter: invert();
+}
+
+/*-------------------------*/
+
+#card-column {
+  position: absolute;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  right: 5vw;
+}
+
+#card-column-1,
+#card-column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 2vh;
+}
+
+.card-bg:hover,
+.arrow-bg:hover {
+  background-color: #1c6601e7;
+  transform: scale(.99);
+}
+
+.card-bg {
+  width: calc(25vw + 2vmax);
+  height: calc(50px + 4vmin);
+  border-radius: 20px;
+  background-color: var(--background_color);
+  display: flex;
+  flex-direction: right;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+}
+
+.cardjouretmois {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 5px;
+}
+
+.card-icon {
+  height: 64px;
+  width: 64px;
+}
+
+.strtemp {
+  font-weight: bold;
+  font-size: calc(20px + 2vmin);
+}
+
+.strjour {
+  font-weight: bold;
+  font-size: calc(4px + 2vmin);
+}
+
+.strmoisjour {
+  font-size: calc(0px + 2vmin);
+}
+
+/*-------------------------*/
+
+.main_card_bg {
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+  width: calc(25vw + 2vmax);
+  height: calc(150px + 4vmin);
+  background-color: var(--background_color);
+  border-radius: 15px;
+}
+
+.main_card_infos {
+  position: relative;
+  margin-top: 1.5vh;
+  font-size: calc(0px + 2vmin);
+  position: relative;
+  display: flex;
+  flex-direction: right;
+  color: aliceblue;
+  justify-content: space-evenly;
+}
+
+.main_card_icon_date {
+  position: relative;
+  display: flex;
+  flex-direction: right;
+  align-items: center;
+  color: aliceblue;
+}
+
+.main_card_date {
+  font-size: calc(7px + 2vmin);
+  font-weight: bold;
+}
+
+.main_card_icon {
+  margin-right: 6vw;
+  height: 64px;
+  width: 64px;
+}
+
+/*-------------------------*/
+
+@media only screen and (max-width: 1060px) {
+
+  #arrow_back_div {
+    position: relative;
+    top: 1vh;
+    left: unset;
+    margin-bottom: 15px;
+  }
+
+  #card-column {
+    position: relative;
+    right: unset;
+    justify-content: unset;
+    min-height: unset;
+  }
+
+  .main_card_bg {
+    position: relative;
+    left: unset;
+    bottom: unset;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ body {
+  background: rgb(43, 199, 101);
+ }
+
+  #background_image {
+    display: none;
+  }
+
+  #background_overlay {
+    display: none;
+  }
+
+
+  .card-bg {
+    width:65vw;
+  }
+
+  .main_card_bg {
+    width:65vw;
+  }
+}
+
