@@ -3,7 +3,7 @@
 
 
 Ce répertoire contient le projet *Meteapp*.
-C'est une application permettant de donner la météo du jour même et des 7 prochains jours à venir.
+C'est une application web permettant de donner la météo du jour même et des 7 prochains jours à venir.
 
 ### Comment démarrer l'application
 
